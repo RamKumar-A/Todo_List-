@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #888;
+  height: 100%;
+}
+.container {
+  height: 50vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  background-color: #fff;
+  text-align: left;
+  width: 400px;
+  padding: 20px;
+}
+
+.lists {
+  padding: 20px;
+}
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.input__box {
+  flex: 1;
+  width: 200px;
+  height: 25px;
+  margin-left: -15px;
+  border: 2px solid orangered;
+  padding-left: 20px;
+  border-radius: 25px;
+}
+.lists .btn {
+  width: 50px;
+  height: 25px;
+  border-radius: 25px;
+  border: 1px solid red;
+  background-color: orangered;
+  color: #fff;
+  margin-left: -50px;
+}
+.todoContainer {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.todos {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+
+  padding: 30px;
+  font-size: 1.05em;
+}
+.bc__toggle {
+  background-color: yellowgreen;
+  border-radius: 25px;
+  /* gap: 10px; */
+}
+.todo__strike {
+  text-decoration: line-through;
+}
+.todos .delete {
+  width: 20px;
+  height: 20px;
+}
+.todos .input__checkbox {
+  padding: 20px;
+  width: 30px;
+  margin-right: 20px;
+}
+.todos .para__text {
+  /* flex: 1; */
+  text-align: center;
+}
